@@ -1,91 +1,136 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Cannon</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffery Cannon</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-
-
-    <div class="logo">Jeffery Cannon<span>.</span></div>
+    <div class="logo">Jeffery Cannon.</div>
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Portfolio</li>
-        <li>Contact Me</li>
-      </ul>
+      <a href="#">Home</a>
+      <a href="#">About Me</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact Me</a>
+      <a href="#" class="cta">📞 Book a Call</a>
     </nav>
-    <a href="#" class="call-button">Book a Call</a>
   </header>
 
   <section class="hero">
-    <div class="icon">💬</div>
-    <h1>We’d love to here from you.</h1>
-    <p>Here’s what some of my satisfied clients have to say about my work</p>
-
-    <div class="features">
-      <div class="feature">⚡ 24 / 7 Assistance</div>
-      <div class="feature">⚡ Quick Change Resolutions</div>
-      <div class="feature">⚡ Flexible Working hours</div>
+    <div class="hero-content">
+      <div class="icon-box"> <span class="icon">🗨</span> </div>
+      <h1>We’d love to here from you.</h1>
+      <p>Here’s what some of my satisfied clients have to say about my work</p>
+      <div class="features">
+        <span>🕒 24 / 7 Assistance</span>
+  <span>⚡ Quick Change Resolutions</span>
+  <span>⭐ Flexible Working hours</span>
+      </div>
     </div>
   </section>
 
   <section class="contact-section">
     <div class="contact-info">
-      <div class="box">
-        <p>You can Email Me Here</p>
-        <strong>jefferycannon@gmail.com</strong>
-        <span>ic</span>
-
+  
+      <div class="card">
+        <div class="icon-box"><i class="fas fa-arrow-right"></i></div>
+        <div class="text-content">
+          <small>You can Email me here</small>
+          <div>jefferycannon@gmail.com</div>
+        </div>
       </div>
-      <div class="box">
-        <p>Give Me a Call on</p>
-        <strong>+91 91813 23 2309</strong>
-
+  
+      <div class="card">
+        <div class="icon-box"><i class="fas fa-arrow-right"></i></div>
+        <div class="text-content">
+          <small>Give me a call on</small>
+          <div>+91 98113 23 2309</div>
+        </div>
       </div>
-      <div class="box">
-        <p>Location</p>
-        <strong>Somewhere in the World</strong>
+  
+      <div class="card">
+        <div class="icon-box"><i class="fas fa-arrow-right"></i></div>
+        <div class="text-content">
+          <small>Location</small>
+          <div>Somewhere in the World</div>
+        </div>
       </div>
+  
+      <div class="social-block">
+        <p class="social-title">My Social Profiles</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+  
+    </div>
+  
 
-      
-      <p>My Social Profiles</p>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/loin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="#">🐦</a>
-        <a href="#">📸</a>
-      </div>  
+        </div>
+      </div>
     </div>
 
-    <form class="contact-form">
-      <div class="row">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-      </div>
-
-      <div class="row">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Phone Number">
-      </div>
-
-      <div class="checkbox-group">
-        <p>Why are you contacting us?</p>
-        <label><input type="checkbox"> Web Design</label>
-        <label><input type="checkbox"> Mobile App Design</label>
-        <label><input type="checkbox"> Collaboration</label>
-        <label><input type="checkbox"> Others</label>
-      </div>
-
-      <textarea placeholder="Your Message here..."></textarea>
-      
-
-      <button type="submit">Send</button>
-    </form>
+    <div class="contact-form">
+      <form>
+        <div class="row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <div class="row">
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Phone Number" />
+        </div>
+        <div class="checkboxes">
+          <label><input type="checkbox" /> Web Design</label>
+          <label><input type="checkbox" /> Mobile App Design</label>
+          <label><input type="checkbox" /> Collaboration</label>
+          <label><input type="checkbox" /> Others</label>
+        </div>
+        <textarea placeholder="Your Message here..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
   </section>
+
+  <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <p>Here are answers to some common questions</p>
+    <div class="faq-container">
+      <div class="faq">
+        <details open>
+          <summary>Can you work with clients remotely?</summary>
+          <p>
+            Absolutely! I have experience working with clients from all around the world...
+          </p>
+        </details>
+        <details>
+          <summary>How long does it take to complete a web design project?</summary>
+          <p>Depends on scope, usually 2–6 weeks.</p>
+        </details>
+        <details>
+          <summary>Do you offer website maintenance services?</summary>
+          <p>Yes, ongoing support and updates available.</p>
+        </details>
+        <details>
+          <summary>Can you optimize my website for search engines?</summary>
+          <p>Yes, SEO best practices included in all projects.</p>
+        </details>
+        <details>
+          <summary>Can you integrate third-party tools?</summary>
+          <p>Yes, including analytics, CRMs, and payment gateways.</p>
+        </details>
+      </div>
+      <div class="faq-cta">
+        <h3>Still have any Questions?</h3>
+        <p>Let’s collaborate to create an exceptional website...</p>
+        <a href="#" class="cta">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
